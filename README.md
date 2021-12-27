@@ -1,7 +1,7 @@
-<p align="center"><h1 align="center"><samp><h2>Full Stack mini project</h2></samp></p>
-<br />
-<p align="center"><h4>By creating a mini-project, I try to improve my Full Stack skills.</h4></p>
-
+<p align="center"><h1 align="center">
+<samp><h2>Full Stack mini project</h2></samp>
+<h4>By creating a mini-project, I try to improve my Full Stack skills.</h4>  
+</p>
 <p align="center"><h1 align="center"><samp>Technologies used</samp></h1></p>
 <br/>
 <p align="center">
