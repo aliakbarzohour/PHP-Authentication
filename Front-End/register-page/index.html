@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome . Please enter username and password</title>
+    <title>Welcome to register page .</title>
     <!-- linked bootstrap Css file  -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- linking original css  -->
@@ -14,7 +14,7 @@
 
 <body>
     <!-- background  -->
-    <img src="./media/1.jpeg" alt="">
+    <img src="./media/2.jpg" alt="">
     <!-- login page  -->
     <div class="container">
         <div class="row row-cols-1">
@@ -22,10 +22,10 @@
             <div class="col col-12 form">
                 <div class="content text-center">
                     <h1>Welcome</h1>
-                    <p>welcome to this login page . please define a data to logining</p>
+                    <p>welcome to this register page . please define a data to registering</p>
                 </div>
                 <!-- make a form for login  -->
-                <form action="/" method="post">
+                <form action="../login-page/index.html" method="post">
                     <!-- user name  -->
                     <h5>User name</h5>
                     <input type="text" name="user-name" placeholder="Enter user name . . .">
@@ -35,10 +35,13 @@
                     <!-- password -->
                     <h5>Password</h5>
                     <input type="password" name="password" placeholder="Enter Password . . .">
-                    <!-- submiting  -->
-                    <button type="submit" class="btn btn-light w-25 m-4">Submit</button>
+                    <!-- configure  -->
+                    <h5>Configure Password</h5>
+                    <input type="password" name="password" placeholder="Enter Password . . .">
+                    <!-- register  -->
+                    <button type="submit" class="btn btn-light w-25 m-4">register</button>
                 </form>
-                <a class="link" href="../register-page/index.html">dont have a account ? create account</a>
+                <a class="link" href="../login-page/index.html">have a account ? login</a>
             </div>
 
         </div>
