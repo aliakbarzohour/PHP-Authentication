@@ -5,8 +5,8 @@
 <p align="center"><h1 align="center"><samp>Technologies used</samp></h1></p>
 <br/>
 <p align="center">
-  <img src="https://img.shields.io/badge/-PHP-purple?style=for-the-badge&logo=php" alt="PHP" />
-  <img src="https://img.shields.io/badge/-javascript-yellow?style=for-the-badge&logo=php" alt="js" />
+  <img src="https://img.shields.io/badge/-PHP-9cf?style=for-the-badge&logo=php" alt="PHP" />
+  <img src="https://img.shields.io/badge/-javascript-yellowgreen?style=for-the-badge&logo=javascript" alt="js" />
 </p>
 
 <p align="center"><h1 align="center"><samp>Description</samp></h1></p>
