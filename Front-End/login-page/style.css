@@ -53,4 +53,10 @@ input {
     padding: 5px;
     border: none;
     margin: 5px;
+    color: black;
+}
+
+.link {
+    color: whitesmoke;
+    text-decoration: none;
 }
