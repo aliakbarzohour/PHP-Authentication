@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/-PHP-9cf?style=for-the-badge&logo=php" alt="PHP" />
   <img src="https://img.shields.io/badge/-Javascript-yellowgreen?style=for-the-badge&logo=javascript" alt="js" />
   <img src="https://img.shields.io/badge/-My Sql-yellow?style=for-the-badge&logo=mysql" alt="js" />
-  <img src="https://img.shields.io/badge/-Xammp-orange?style=for-the-badge&logo=xampp" alt="xammp" />
+  <img src="https://img.shields.io/badge/-Xammp-orange?style=for-the-badge&logo=xampp&logo-color=white" alt="xammp" />
   <img src="https://img.shields.io/badge/-Vscode-blue?style=for-the-badge&logo=visual-studio-code" alt="vscode" />
 </p>
 
