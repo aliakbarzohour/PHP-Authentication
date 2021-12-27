@@ -1,5 +1,5 @@
 <p align="center">
-<samp><h2 align="center">Full Stack mini project</h2></samp>
+<h1 align="center"><samp>Full Stack mini project</samp></h1>
 <h4 align="center">By creating a mini-project, I try to improve my Full Stack skills.</h4>  
 </p>
 
