@@ -7,7 +7,9 @@
 <br/>
 <p align="center">
   <img src="https://img.shields.io/badge/-PHP-9cf?style=for-the-badge&logo=php" alt="PHP" />
-  <img src="https://img.shields.io/badge/-javascript-yellowgreen?style=for-the-badge&logo=javascript" alt="js" />
+  <img src="https://img.shields.io/badge/-Javascript-yellowgreen?style=for-the-badge&logo=javascript" alt="js" />
+  <img src="https://img.shields.io/badge/-My Sql-blue?style=for-the-badge&logo=mysql" alt="js" />
+  <img src="https://img.shields.io/badge/-Xammp-orange?style=for-the-badge&logo=xammp" alt="xammp" />
 </p>
 
 <p align="center"><h1 align="center"><samp>Description</samp></h1></p>
