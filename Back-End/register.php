@@ -26,5 +26,5 @@ if($password === $repassword){
    }
 
 }else{
-    echo 'passwod not match';
+    echo 'passwod not match . try agin';
 }
