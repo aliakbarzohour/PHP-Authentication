@@ -24,7 +24,7 @@ if($password === $repassword){
    }catch (Exception $e){
     echo $e->getMessage();
    }
-   echo 'ok';
+   echo 'ok ✅ . your user name and password and email is define on database 👌🏼 .';
 }else{
-    echo 'passwod not match . try agin';
+    echo 'passwod not match 🚫 . try agin';
 }
