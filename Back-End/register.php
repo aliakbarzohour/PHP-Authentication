@@ -11,7 +11,7 @@ $password = $_POST["password"];
 $repassword = $_POST["repassword"];
 // checking password for login 
 if($password === $repassword){
-    $password = md5($password);
+    $password = sha1($password);
     $query = "insert into tbl_users (name, email, password) values (?,?,?)";
    try{
     $statement = $db->prepare($query);
