@@ -2,7 +2,7 @@
 
 require 'config/config.php';
 // define User name 
-$name = $_POST["name"];
+$name = $_POST["user-name"];
 // define Email 
 $email = $_POST["email"];
 // define password 
@@ -24,7 +24,7 @@ if($password === $repassword){
    }catch (Exception $e){
     echo $e->getMessage();
    }
-
+   echo 'ok';
 }else{
     echo 'passwod not match . try agin';
 }
