@@ -1,5 +1,4 @@
 <?php
-
 require 'config/config.php';
 // define User name 
 $name = $_POST["user-name"];
@@ -23,10 +22,11 @@ if ($password === $repassword) {
         $statement->close();
         $db->close();
         // routing in done page 
-        header('loaction: done.html');
     } catch (Exception $e) {
         echo $e->getMessage();
     }
+    header('location: ../Front-End/login-page/index.html');
+    // you can use this code for testing 
     // echo 'ok ✅ . your user name and password and email is define on database 👌🏼 .';
 } else {
     echo 'passwod not match 🚫 . try agin';
