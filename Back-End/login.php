@@ -13,16 +13,14 @@ try{
  // binding 
  $statement->bind_param("ss", $email, $password);
  // executing data 
- $statement->execute();
-
- 
+ $statement->execute(); 
  // couting users in database 
  $result = $statement->get_result();
     if($result->num_rows === 1){
-        header('Location: ./done.html');
+    header('location: done.html');
         // echo 'OK You LOGED IN ✅';
     }else{
-        header('Location: ../Front-End/login-page/index.html');
+        // header('Location: ../Front-End/login-page/index.html');
     }
 }catch (Exception $e){
  echo $e->getMessage();
