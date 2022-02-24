@@ -28,7 +28,7 @@ session_start();
     <h3>
     <?php
     echo "Your Name : ".$_SESSION["admin_name"]. "<br />";
-    echo "Your Name: ".$_SESSION["admin_email"];
+    echo "Your Email: ".$_SESSION["admin_email"];
     ?>
     </h3>
 </body>
