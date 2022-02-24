@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,6 +14,7 @@
     body {
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
         background: linear-gradient(rgb(148 168 0), rgb(0 66 26));
         color: white;
         min-height: 100vh;
@@ -21,6 +25,12 @@
 
 <body>
     <h1>Successfully Login ✅</h1>
+    <h3>
+    <?php
+    echo "Your Name : ".$_SESSION["admin_name"]. "<br />";
+    echo "Your Name: ".$_SESSION["admin_email"];
+    ?>
+    </h3>
 </body>
 
 </html>

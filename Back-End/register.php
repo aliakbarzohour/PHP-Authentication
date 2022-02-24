@@ -1,5 +1,12 @@
 <?php
 require 'config/config.php';
+
+
+session_start();
+if (isset($_SESSION["admin_id"])) {
+    header('location: done.html');
+}
+
 // define User name 
 $name = $_POST["user-name"];
 // define Email 
