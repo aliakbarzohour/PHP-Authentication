@@ -17,7 +17,7 @@ try{
  // couting users in database 
  $result = $statement->get_result();
     if($result->num_rows === 1){
-    header('location: done.html');
+    header('location: done.php');
         // echo 'OK You LOGED IN ✅';
     }else{
         // header('Location: ../Front-End/login-page/index.html');
