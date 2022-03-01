@@ -2,7 +2,6 @@
 <h1 align="center"><samp>Full Stack mini project</samp></h1>
 <h4 align="center">By creating a mini-project, I try to improve my Full Stack skills.</h4>  
 </p>
-
 <p align="center"><h1 align="center"><samp>Technologies used</samp></h1></p>
 <br/>
 <p align="center">
